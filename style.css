@@ -1,0 +1,84 @@
+*{
+    /* background-color: #FDF0D1; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #643843;
+  }
+.container{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.boxes{
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 4px solid rgb(212, 212, 220) ;
+}
+
+.boxes:hover{
+  transition: 0.1s ease-in;
+  background-color: rgb(94, 20, 33);
+  color: white;
+}
+
+
+.game {
+  background-color: #752e5a;
+  height: 65vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+  cursor: pointer;
+  max-width:70vmin ;
+  max-height: 70vmin;
+  box-shadow: 0px 0px 0px rgba(1, 240, 1, 0.87), 3px 4px rgba(214, 3, 3, 0.23);
+  border-radius: 2px;
+}
+
+.msg_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+  /* background-color: #752e5a; */
+  /* width: 500px; */
+}
+#newgame{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  padding: 5px;
+  margin: 10px;
+
+}
+#newgame:hover{
+  transition: 0.1s ease-in;
+  background-color: rgb(9, 243, 67);
+}
+
+#msg{
+  font-weight: 700;
+}
+/* #ply_again{
+  background-color: #eef3f2;
+  cursor: pointer;
+  border: 3px solid rgb(137, 6, 50);
+
+}
+#ply_again:hover{
+  background-color: #78fbe1;
+  border: 3px solid rgb(215, 109, 144);
+ 
+} */
+.hide{
+  display: none;
+}
